@@ -247,7 +247,7 @@ function scrapeCheese() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -322,7 +322,7 @@ function scrapeCheeseBlock() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -402,7 +402,7 @@ function mediumCheeseSlices() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -482,7 +482,7 @@ function scrapeYogurt() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -562,7 +562,7 @@ function scrapeEggs() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -642,7 +642,7 @@ function scrapeMargarine() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -724,7 +724,7 @@ function chickenDrumstrick() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -796,7 +796,7 @@ function beefStirFry() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -870,7 +870,7 @@ function outsideRoundSteak() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -944,7 +944,7 @@ function leanGroundBeef() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1016,7 +1016,7 @@ function porkCenterChop() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1090,7 +1090,7 @@ function blackForestHam() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1165,7 +1165,7 @@ function cantaloupe() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1238,7 +1238,7 @@ function sweetPotato() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1310,7 +1310,7 @@ function carrots() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1380,7 +1380,7 @@ function romaineLettuce() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1452,7 +1452,7 @@ function broccoliCrown() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1524,7 +1524,7 @@ function sweetGreenPeppers() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1598,7 +1598,7 @@ function apples() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1670,7 +1670,7 @@ function bananas() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1742,7 +1742,7 @@ function grapes() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1816,7 +1816,7 @@ function orange() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1889,7 +1889,7 @@ function pears() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -1961,7 +1961,7 @@ function potatoes() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2033,7 +2033,7 @@ function turnips() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2103,7 +2103,7 @@ function cabbage() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2175,7 +2175,7 @@ function cucumbers() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2247,7 +2247,7 @@ function celery() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2319,7 +2319,7 @@ function lettuceIceberg() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2391,7 +2391,7 @@ function whiteMushrooms() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2463,7 +2463,7 @@ function onion() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2535,7 +2535,7 @@ function tomatoes() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2610,7 +2610,7 @@ function pitaBread() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2684,7 +2684,7 @@ function wheatBread() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2756,7 +2756,7 @@ function originalBread() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2828,7 +2828,7 @@ function hamburgerBread() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2903,7 +2903,7 @@ function frozenFishFillet() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -2975,7 +2975,7 @@ function greenBeans() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3047,7 +3047,7 @@ function mixedVegetables() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3119,7 +3119,7 @@ function greenPeas() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3191,7 +3191,7 @@ function concentratedOrangeJuice() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3263,7 +3263,7 @@ function frozenStrawberries() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3338,7 +3338,7 @@ function blackBeans() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3410,7 +3410,7 @@ function flakedTuna() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3482,7 +3482,7 @@ function wildSalmon() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3554,7 +3554,7 @@ function peachSlices() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3626,7 +3626,7 @@ function crispCorn() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3698,7 +3698,7 @@ function dicedTomatoes() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3770,7 +3770,7 @@ function appleJuice() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3842,7 +3842,7 @@ function tomatoCocktail() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3914,7 +3914,7 @@ function cereal() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -3986,7 +3986,7 @@ function granola() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4058,7 +4058,7 @@ function oat() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4130,7 +4130,7 @@ function wholeWheatFlour() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4202,7 +4202,7 @@ function allPurposeFlour() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4274,7 +4274,7 @@ function raisins() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4346,7 +4346,7 @@ function lentils() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4418,7 +4418,7 @@ function socialTeaBiscuits() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4490,7 +4490,7 @@ function crackers() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4562,7 +4562,7 @@ function peanutButter() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4634,7 +4634,7 @@ function vegetableOil() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4706,7 +4706,7 @@ function caesarDressing() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4778,7 +4778,7 @@ function italianDressing() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4850,7 +4850,7 @@ function spaghetti() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4922,7 +4922,7 @@ function rice() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
@@ -4994,7 +4994,7 @@ function peanuts() {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       async function scrapeUrl(url) {
-        const browser = await puppeteer.launch({ headless: "new" }); // new headless https://developer.chrome.com/articles/new-headless/
+        const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: "new"}); // new headless https://developer.chrome.com/articles/new-headless/
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
         // await useProxy(page, proxyServer);
