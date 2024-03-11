@@ -136,7 +136,7 @@ scrapeCheese()
 .then(scrapeCheeseBlock)
 .then(mediumCheeseSlices)
 .then(scrapeYogurt)
-.then(scrapeEggs)
+// .then(scrapeEggs)
 .then(scrapeMargarine)
 .then(function finishRefrigerated() {
   console.log("Finishing Refrigerated Food scraping");
